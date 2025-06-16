@@ -1,0 +1,29 @@
+# Flutter
+build/
+.dart_tool/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Sensitive
+*.jks
+*.keystore
+local.properties
+
+# Android
+android/.gradle/
+android/captures/
+# If you have specific large files in android/app/build/ that aren't covered,
+# you might need more specific rules, but 'build/' at the root should cover android/app/build.
+
+# iOS
+ios/Pods/
+ios/Runner/GeneratedPluginRegistrant.*
+ios/.symlinks/
+ios/Flutter/Flutter.podspec
+
+# Other common
+.DS_Store
+*.log
