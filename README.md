@@ -9,10 +9,10 @@ Whether you're managing complex projects or jotting down quick thoughts, TaskNot
 [![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)](https://www.sqlite.org/index.html)
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/raw/main/2c93d080-c4d7-4c56-9634-e00ca499894f" alt="Home Screen" width="250" hspace="10">
-  <img src="https://github.com/user-attachments/assets/raw/main/bf83d76b-938c-4f65-9143-7d7159069337" alt="Category Screen" width="250" hspace="10">
-  <img src="https://github.com/user-attachments/assets/raw/main/aa6804c6-f52f-4f94-9671-1ec1395f2195" alt="Notes Screen" width="250" hspace="10">
-  <img src="https://github.com/user-attachments/assets/raw/main/8ffe1e63-6ad0-4d41-bb0c-2bdbd34a483c" alt="Settings Screen" width="250" hspace="10">
+  <img src="https://github.com/user-attachments/assets/2c93d080-c4d7-4c56-9634-e00ca499894f" alt="Home Screen" width="250" hspace="10">
+  <img src="https://github.com/user-attachments/assets/bf83d76b-938c-4f65-9143-7d7159069337" alt="Category Screen" width="250" hspace="10">
+  <img src="https://github.com/user-attachments/assets/aa6804c6-f52f-4f94-9671-1ec1395f2195" alt="Notes Screen" width="250" hspace="10">
+  <img src="https://github.com/user-attachments/assets/8ffe1e63-6ad0-4d41-bb0c-2bdbd34a483c" alt="Settings Screen" width="250" hspace="10">
 </p>
 
 ---
