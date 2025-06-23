@@ -64,10 +64,10 @@
   
 ```bash
 # 1️⃣ Clone the repository
-git clone https://github.com/MegoABKM/MyProjects.git
+git clone https://github.com/MegoABKM/TaskNotate.git
 
 # 2️⃣ Navigate to project
-cd MyProjects/TaskNotate
+cd TaskNotate
 
 # 3️⃣ Run the app
 flutter pub get && flutter run
