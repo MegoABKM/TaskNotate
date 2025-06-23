@@ -27,7 +27,7 @@
   <img src="https://github.com/user-attachments/assets/8ffe1e63-6ad0-4d41-bb0c-2bdbd34a483c" alt="Default Settings" width="200">
 </p>
 
-### Dark Blue Theme
+### Purble Theme
 <p align="center">
   <img src="https://github.com/user-attachments/assets/709fd844-6d0f-4696-80c5-38b3691993a9" alt="Blue Task Home" width="200">
   <img src="https://github.com/user-attachments/assets/5e5e7ebd-9704-4cd1-ba09-f0b2d8358a41" alt="Blue Category" width="200">
@@ -64,10 +64,10 @@
 | Component        | Technology                          |
 |------------------|-------------------------------------|
 | Framework        | Flutter 3.x                         |
-| Theme System     | Dynamic Color Engine               |
+| Theme System     | Dynamic Color Engine                |
 | State Management | GetX                                |
-| Local Database   | SQLite + Hive                      |
-| Drawing          | Custom Canvas + Gesture Recognition|
+| Local Database   | SQLite                              |
+| Drawing          | Custom Canvas |
 
 ---
 
