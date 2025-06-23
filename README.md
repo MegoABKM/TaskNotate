@@ -29,20 +29,24 @@
 ## ✨ Core Features
 
 ### 🎯 General Features
-- **☀️ Powerful Offline Notifications**: Stay on top of your schedule with precise, scheduled reminders
-- **🎨 Customizable Colors**: Personalize with vibrant color themes
+- **☀️ Smart Categories**: Organize tasks and notes with customizable categories
+- **🌈 Rich Color Themes**: Choose from 20+ beautiful color schemes
+- **✨ Smooth Animations**: Enjoy fluid UI transitions and status animations
 - **🌐 Multi-Language Support**: English, Arabic, Spanish, German, and Chinese
 
 ### ✅ Advanced Task Management
-- **Priority Levels & Status Tracking**
-- **Subtasks & Deadline Management**
-- **Progress Timeline & Rich Details**
-- **Smart Categorization**
+- **📌 Priority Levels**: Set high/medium/low priorities with visual indicators
+- **🔄 Status Tracking**: Beautiful animated transitions between To-Do/In Progress/Done
+- **🧩 Subtasks**: Break down tasks with nested subtask support
+- **⏰ Smart Deadlines**: Set reminders with intelligent notifications
+- **📊 Progress Timeline**: Visualize your task completion journey
 
 ### 📝 Elegant Note-Taking
-- **Rich Text Editing**
-- **Organized by Category**
-- **Fluid, Distraction-Free Interface**
+- **🖊️ Rich Text Editing**: Full formatting options with instant auto-save
+- **🎨 Drawing Canvas**: Sketch ideas with undo/redo/clear functionality
+- **🗂️ Category Organization**: Color-coded note categories
+- **🔍 Quick Search**: Find notes instantly with powerful search
+- **📱 Cross-Device Sync**: Your notes available everywhere
 
 ---
 
@@ -55,13 +59,12 @@
 | State Management | GetX                                |
 | Local Database   | SQLite (via sqflite)                |
 | Notifications    | awesome_notifications + alarm       |
+| Drawing Engine   | Custom Flutter Canvas               |
 
 ---
 
 ## 🚀 Get Started in 3 Steps
 
-<div align="center">
-  
 ```bash
 # 1️⃣ Clone the repository
 git clone https://github.com/MegoABKM/TaskNotate.git
