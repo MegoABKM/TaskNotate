@@ -38,7 +38,7 @@
 - **📌 Priority Levels**: Set high/medium/low priorities with visual indicators
 - **🔄 Status Tracking**: Beautiful animated transitions between Pending/In Progress/Completed
 - **🧩 Subtasks**: Break down tasks with nested subtask support
-- **⏰ Smart Deadlines**: Set reminders with intelligent notifications
+- **⏰ Deadlines**: Set reminders 
 - **📊 Progress Timeline**: Visualize your task completion journey
 
 ### 📝 Elegant Note-Taking
