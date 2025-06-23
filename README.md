@@ -4,12 +4,18 @@
   <img src="https://github.com/user-attachments/assets/c1ea1b69-76ea-4e86-9a35-c5393a96cd78" alt="TaskNotate Logo" width="150">
 </p>
 
-Welcome to **TaskNotate**, a beautifully crafted Flutter app designed to supercharge your productivity! Built with Dart and powered by a local SQLite database, this app brings your tasks and notes to life with a stunning UI, full offline functionality, and a host of customizable features.
+<p align="center">
+  <em>Your ultimate productivity companion for tasks and notes</em>
+</p>
+
+<div align="center">
 
 [![Flutter](https://img.shields.io/badge/Flutter-3.x-blue?style=for-the-badge&logo=flutter)](https://flutter.dev)
 [![Dart](https://img.shields.io/badge/Dart-2.x-0175C2?style=for-the-badge&logo=dart)](https://dart.dev)
-[![GetX](https://img.shields.io/badge/GetX-State%20Management-orange?style=for-the-badge&logo=flutter)](https://pub.dev/packages/get)
+[![GetX](https://img.shields.io/badge/GetX-State%20Management-orange?style=for-the-badge)](https://pub.dev/packages/get)
 [![SQLite](https://img.shields.io/badge/SQLite-3.x-003B57?style=for-the-badge&logo=sqlite&logoColor=white)](https://www.sqlite.org/index.html)
+
+</div>
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/2c93d080-c4d7-4c56-9634-e00ca499894f" alt="Home Screen" width="200">
@@ -21,8 +27,6 @@ Welcome to **TaskNotate**, a beautifully crafted Flutter app designed to superch
 ---
 
 ## ✨ Core Features
-
-TaskNotate is packed with features designed to keep you organized and on track.
 
 ### 🎯 General Features
 - **☀️ Powerful Offline Notifications**: Stay on top of your schedule with precise, scheduled reminders
@@ -54,11 +58,16 @@ TaskNotate is packed with features designed to keep you organized and on track.
 
 ---
 
-## 🚀 Future Roadmap
+## 🚀 Get Started in 3 Steps
 
-```mermaid
-graph LR
-A[Current] --> B[Cloud Sync]
-A --> C[Collaboration]
-A --> D[Calendar Integration]
-A --> E[Advanced Analytics]
+<div align="center">
+  
+```bash
+# 1️⃣ Clone the repository
+git clone https://github.com/MegoABKM/MyProjects.git
+
+# 2️⃣ Navigate to project
+cd MyProjects/TaskNotate
+
+# 3️⃣ Run the app
+flutter pub get && flutter run
