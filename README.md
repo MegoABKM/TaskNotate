@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <em>Your ultimate productivity companion for tasks and notes</em>
+  <em>Your ultimate productivity companion with beautiful theme customization</em>
 </p>
 
 <div align="center">
@@ -17,11 +17,20 @@
 
 </div>
 
+## 🎨 Theme Showcase
+
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/2c93d080-c4d7-4c56-9634-e00ca499894f" alt="Home Screen" width="200">
-  <img src="https://github.com/user-attachments/assets/bf83d76b-938c-4f65-9143-7d7159069337" alt="Category Screen" width="200">
-  <img src="https://github.com/user-attachments/assets/aa6804c6-f52f-4f94-9671-1ec1395f2195" alt="Notes Screen" width="200">
-  <img src="https://github.com/user-attachments/assets/8ffe1e63-6ad0-4d41-bb0c-2bdbd34a483c" alt="Settings Screen" width="200">
+  <strong>Task Home - Dark Blue Theme</strong><br>
+  <img src="https://github.com/user-attachments/assets/709fd844-6d0f-4696-80c5-38b3691993a9" alt="Dark Blue Task Home" width="200">
+  
+  <strong>Category Tasks - Green Theme</strong><br>
+  <img src="https://github.com/user-attachments/assets/5e5e7ebd-9704-4cd1-ba09-f0b2d8358a41" alt="Green Category Tasks" width="200">
+  
+  <strong>Notes Home - Purple Theme</strong><br>
+  <img src="https://github.com/user-attachments/assets/78fe9d94-8fb9-436c-b5fc-31ef887793ec" alt="Purple Notes Home" width="200">
+  
+  <strong>Settings - Red Theme</strong><br>
+  <img src="https://github.com/user-attachments/assets/a675e280-23fa-41c2-9067-94808aa34eab" alt="Red Settings" width="200">
 </p>
 
 ---
@@ -29,23 +38,22 @@
 ## ✨ Core Features
 
 ### 🎯 General Features
-- **☀️ Smart Categories**: Organize tasks and notes with customizable categories
-- **🌈 Rich Color Themes**: Choose from 20+ beautiful color schemes
-- **✨ Smooth Animations**: Enjoy fluid UI transitions and status animations
+- **🌈 20+ Color Themes**: Choose from beautiful presets or create your own
+- **☀️ Dark/Light Mode**: Automatic switching with system preference
+- **✨ Theme Preview**: See changes in real-time before applying
 - **🌐 Multi-Language Support**: English, Arabic, Spanish, German, and Chinese
 
 ### ✅ Advanced Task Management
-- **📌 Priority Levels**: Set high/medium/low priorities with visual indicators
-- **🔄 Status Tracking**: Beautiful animated transitions between Pending/In Progress/Completed
-- **🧩 Subtasks**: Break down tasks with nested subtask support
-- **⏰ Deadlines**: Set reminders 
-- **📊 Progress Timeline**: Visualize your task completion journey
+- **📌 Priority Levels**: Color-coded priority indicators
+- **🔄 Status Animations**: Smooth transitions between states
+- **🧩 Subtasks**: Nested subtasks with progress tracking
+- **⏰ Smart Reminders**: Location-based and time-based alerts
 
 ### 📝 Elegant Note-Taking
-- **🖊️ Rich Text Editing**: Full formatting options with instant auto-save
-- **🎨 Drawing Canvas**: Sketch ideas with undo/redo/clear functionality
-- **🗂️ Category Organization**: Color-coded note categories
-
+- **🎨 Drawing Tools**: Pressure-sensitive sketching with multiple brush types
+- **🖊️ Rich Text**: Full formatting with Markdown support
+- **📎 Attachments**: Add images and files to your notes
+- **🔍 Quick Search**: Instant search across all notes
 
 ---
 
@@ -54,10 +62,9 @@
 | Component        | Technology                          |
 |------------------|-------------------------------------|
 | Framework        | Flutter 3.x                         |
-| Language         | Dart 2.x                            |
+| UI System        | Custom Theme Engine                 |
 | State Management | GetX                                |
 | Local Database   | SQLite (via sqflite)                |
-| Notifications    | awesome_notifications + alarm       |
 | Drawing Engine   | Custom Flutter Canvas               |
 
 ---
