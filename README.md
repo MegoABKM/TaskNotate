@@ -45,8 +45,7 @@
 - **🖊️ Rich Text Editing**: Full formatting options with instant auto-save
 - **🎨 Drawing Canvas**: Sketch ideas with undo/redo/clear functionality
 - **🗂️ Category Organization**: Color-coded note categories
-- **🔍 Quick Search**: Find notes instantly with powerful search
-- **📱 Cross-Device Sync**: Your notes available everywhere
+
 
 ---
 
