@@ -34,6 +34,9 @@
   <img src="https://github.com/user-attachments/assets/308f7161-9d8f-44d8-9043-f1041d4a7b4c" alt="Screenshot 3" width="200">
   <img src="https://github.com/user-attachments/assets/d9b499b4-6892-42c4-beb1-4744cd569459" alt="Screenshot 4" width="200">
   <img src="https://github.com/user-attachments/assets/12cd8a00-601a-4d55-a7a8-0fe83dd9e052" alt="Screenshot 5" width="200">
+  <img src="https://github.com/user-attachments/assets/63be5816-b264-44ff-83ac-93909f3e8612" alt="Screenshot 6" width="200">
+  <img src="https://github.com/user-attachments/assets/9d8381e8-c85c-4cd2-b1d7-e1c9f636f5a1" alt="Screenshot 7" width="200">
+  <img src="https://github.com/user-attachments/assets/cebc6f2b-7c7d-4b7c-a221-6efa81d24d90" alt="Screenshot 8" width="200">
 </p>
 
 ---
