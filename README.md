@@ -48,21 +48,19 @@
 ### 🎯 General Features
 - **🌈 20+ Color Themes**: Switch between beautiful presets with one tap
 - **☀️ Dark/Light Mode**: Automatic system adaptation or manual selection
-- **✨ Real-time Preview**: See theme changes instantly before applying
+- **⚡ Simple & fast** task management with built-in notes ✏️
 - **🌍 Multi-Language**: English, العربية, Español, Deutsch, 中文
 
 ### ✅ Advanced Task Management
-- **🎯 Priority Matrix**: Color-coded urgency/importance visualization
-- **🔄 Smart Status Flow**: Drag-and-drop between stages with animations
-- **🧩 Nested Subtasks**: Unlimited hierarchy with progress tracking
-- **⏱️ Time Blocking**: Schedule tasks directly on timeline
+- 🔔 **Reminders & Deadlines**: Set start/finish dates and get notifications
+- 🧩 **Nested Subtasks**: Break tasks into smaller steps
+- 🔄 **Smart Sorting**: Organize by date, priority, creation time, or status
+- 📅 **Timeline View**: See your tasks in chronological order
 
 ### 📝 Elegant Note-Taking
-- **🎨 Advanced Drawing**: Pressure-sensitive strokes with 10+ brush types
-- **📝 Markdown Support**: Format text with easy shortcuts
-- **🔗 Smart Linking**: Connect notes to tasks and categories
-- **📊 Embedded Media**: Add images, files and web links
-
+- 🎨 **Canvas Drawing**: Sketch ideas with easy undo/redo
+- 💾 **Auto-saving**: Never lose your work
+- ✨ **Minimal Interface**: Focus on your content without distractions
 ---
 
 ## 🛠️ Technology Stack
