@@ -27,12 +27,13 @@
   <img src="https://github.com/user-attachments/assets/8ffe1e63-6ad0-4d41-bb0c-2bdbd34a483c" alt="Default Settings" width="200">
 </p>
 
-### Purble Theme
+### Additional Screenshots
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/709fd844-6d0f-4696-80c5-38b3691993a9" alt="Blue Task Home" width="200">
-  <img src="https://github.com/user-attachments/assets/5e5e7ebd-9704-4cd1-ba09-f0b2d8358a41" alt="Blue Category" width="200">
-  <img src="https://github.com/user-attachments/assets/78fe9d94-8fb9-436c-b5fc-31ef887793ec" alt="Blue Notes" width="200">
-  <img src="https://github.com/user-attachments/assets/a675e280-23fa-41c2-9067-94808aa34eab" alt="Blue Settings" width="200">
+  <img src="https://github.com/user-attachments/assets/424a0979-e330-4cae-b7ea-f02fdc9459c3" alt="Screenshot 1" width="200">
+  <img src="https://github.com/user-attachments/assets/fcf52824-5c8a-44a8-aa89-e18965c942b8" alt="Screenshot 2" width="200">
+  <img src="https://github.com/user-attachments/assets/308f7161-9d8f-44d8-9043-f1041d4a7b4c" alt="Screenshot 3" width="200">
+  <img src="https://github.com/user-attachments/assets/d9b499b4-6892-42c4-beb1-4744cd569459" alt="Screenshot 4" width="200">
+  <img src="https://github.com/user-attachments/assets/12cd8a00-601a-4d55-a7a8-0fe83dd9e052" alt="Screenshot 5" width="200">
 </p>
 
 ---
