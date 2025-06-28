@@ -89,7 +89,7 @@
 <summary><b>Click to expand: Alarm System Architecture and Flow</b></summary>
 
 ### 🔧 Technical Overview
-TaskNotate's alarm system leverages `package:alarm 4.1.1` combined with native Android integration for reliable alarm functionality. The system ensures alarms trigger even when the app is terminated or the device is locked.
+TaskNotate's alarm system leverages `package:alarm 4.1.1` combined with native Android integration for reliable alarm functionality.
 
 ```mermaid
 graph TD
@@ -106,14 +106,11 @@ Display over lock screen
 Work in all app states (foreground/background/terminated)
 
 Survive device reboots
-
 🔄 Workflow Breakdown
 1️⃣ Native Layer (Kotlin)
-kotlin
 // MainActivity.kt handles device wake-up
 override fun onCreate(savedInstanceState: Bundle?) {
     if (intent?.action == "com.megoabkm.tasknotate.ALARM_TRIGGER") {
-        // Turn screen on and show over lock screen
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O_MR1) {
             setShowWhenLocked(true)
             setTurnScreenOn(true)
@@ -128,7 +125,6 @@ override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
 }
 2️⃣ Flutter-Dart Layer
-dart
 // AlarmService.dart manages alarm lifecycle
 void _handleAlarmTrigger(AlarmSettings settings) async {
     await AlarmDisplayStateService.to.setAlarmScreenActive(true);
@@ -138,33 +134,22 @@ void _handleAlarmTrigger(AlarmSettings settings) async {
     });
 }
 🛑 Stopping Alarms
-dart
-// When user dismisses alarm:
 await Alarm.stop(alarmId);
 await AlarmDisplayStateService.to.setAlarmScreenActive(false);
 🔒 State Persistence
-Uses SharedPreferences to store:
+Uses SharedPreferences to store alarm state
 
-Active alarm state
-
-Current alarm ID
-
-Alarm title
-
-Ensures state consistency across app restarts
+Ensures consistency across app restarts
 
 🌟 Key Features
-Hybrid Architecture: Combines Flutter flexibility with native reliability
+Hybrid Flutter-native architecture
 
-Lock Screen Support: Displays over device lock screen
+Reliable lock screen display
 
-Battery Optimization: Uses system-level scheduling
-
-Consistent Behavior: Works across all app states
+Battery-optimized scheduling
 
 </details>
 🚀 Get Started in 3 Steps
-bash
 # 1️⃣ Clone the repository
 git clone https://github.com/MegoABKM/TaskNotate.git
 
