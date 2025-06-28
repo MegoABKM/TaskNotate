@@ -27,25 +27,23 @@
 ## 🎨 Theme Showcase
 
 ### Default Theme
-
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/2c93d080-c4d7-4c56-9634-e00ca499894f" alt="Default Home" width="200">
-  <img src="https://github.com/user-attachments/assets/bf83d76b-938c-4f65-9143-7d7159069337" alt="Default Category" width="200">
-  <img src="https://github.com/user-attachments/assets/aa6804c6-f52f-4f94-9671-1ec1395f2195" alt="Default Notes" width="200">
-  <img src="https://github.com/user-attachments/assets/424a0979-e330-4cae-b7ea-f02fdc9459c3" alt="Screenshot 1" width="200">
+  <img src="https://github.com/user-attachments/assets/2c93d080-c4d7-4c56-9634-e00ca499894f" width="200">
+  <img src="https://github.com/user-attachments/assets/bf83d76b-938c-4f65-9143-7d7159069337" width="200">
+  <img src="https://github.com/user-attachments/assets/aa6804c6-f52f-4f94-9671-1ec1395f2195" width="200">
+  <img src="https://github.com/user-attachments/assets/424a0979-e330-4cae-b7ea-f02fdc9459c3" width="200">
 </p>
 
 ### Additional Screenshots
-
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/fcf52824-5c8a-44a8-aa89-e18965c942b8" alt="Screenshot 2" width="200">
-  <img src="https://github.com/user-attachments/assets/308f7161-9d8f-44d8-9043-f1041d4a7b4c" alt="Screenshot 3" width="200">
-  <img src="https://github.com/user-attachments/assets/d9b499b4-6892-42c4-beb1-4744cd569459" alt="Screenshot 4" width="200">
-  <img src="https://github.com/user-attachments/assets/12cd8a00-601a-4d55-a7a8-0fe83dd9e052" alt="Screenshot 5" width="200">
-  <img src="https://github.com/user-attachments/assets/63be5816-b264-44ff-83ac-93909f3e8612" alt="Screenshot 6" width="200">
-  <img src="https://github.com/user-attachments/assets/9d8381e8-c85c-4cd2-b1d7-e1c9f636f5a1" alt="Screenshot 7" width="200">
-  <img src="https://github.com/user-attachments/assets/8ffe1e63-6ad0-4d41-bb0c-2bdbd34a483c" alt="Default Settings" width="200">
-  <img src="https://github.com/user-attachments/assets/cebc6f2b-7c7d-4b7c-a221-6efa81d24d90" alt="Screenshot 8" width="200">
+  <img src="https://github.com/user-attachments/assets/fcf52824-5c8a-44a8-aa89-e18965c942b8" width="200">
+  <img src="https://github.com/user-attachments/assets/308f7161-9d8f-44d8-9043-f1041d4a7b4c" width="200">
+  <img src="https://github.com/user-attachments/assets/d9b499b4-6892-42c4-beb1-4744cd569459" width="200">
+  <img src="https://github.com/user-attachments/assets/12cd8a00-601a-4d55-a7a8-0fe83dd9e052" width="200">
+  <img src="https://github.com/user-attachments/assets/63be5816-b264-44ff-83ac-93909f3e8612" width="200">
+  <img src="https://github.com/user-attachments/assets/9d8381e8-c85c-4cd2-b1d7-e1c9f636f5a1" width="200">
+  <img src="https://github.com/user-attachments/assets/8ffe1e63-6ad0-4d41-bb0c-2bdbd34a483c" width="200">
+  <img src="https://github.com/user-attachments/assets/cebc6f2b-7c7d-4b7c-a221-6efa81d24d90" width="200">
 </p>
 
 ---
@@ -53,40 +51,37 @@
 ## ✨ Core Features
 
 ### 🎯 General Features
-
-- 🌈 20+ Color Themes — switch between beautiful presets with one tap  
-- ☀️ Dark/Light Mode — automatic system adaptation or manual selection  
-- ⚡ Simple & fast task management with built-in notes ✏️  
-- 🌍 Multi-Language: English, العربية, Español, Deutsch, 中文  
+- 🌈 **20+ Color Themes** with one-tap switching
+- ☀️ **Dark/Light Mode** based on system or manual toggle
+- ⚡ **Simple & Fast Task Management**
+- 🌍 **Multi-language**: English, العربية, Español, Deutsch, 中文
 
 ### ✅ Advanced Task Management
-
-- 🔔 Reminders & Deadlines — set start/finish dates and get notifications  
-- 🧩 Nested Subtasks — break tasks into smaller steps  
-- 🔄 Smart Sorting — organize by date, priority, creation time, or status  
-- 📅 Timeline View — see your tasks in chronological order  
+- 🔔 **Reminders & Deadlines** with notifications
+- 🧩 **Nested Subtasks**
+- 🔄 **Smart Sorting** (date, priority, etc.)
+- 📅 **Timeline View**
 
 ### 📝 Elegant Note-Taking
-
-- 🎨 Canvas Drawing — sketch ideas with easy undo/redo  
-- 💾 Auto-saving — never lose your work  
-- ✨ Minimal Interface — focus on your content without distractions  
+- 🎨 **Canvas Drawing**
+- 💾 **Auto-saving**
+- ✨ **Minimal Interface**
 
 ---
 
 ## 🛠️ Technology Stack
 
-| Component        | Technology                          |
-|------------------|-------------------------------------|
-| Framework        | Flutter 3.x                         |
-| Architecture     | MVC with Clean Architecture         |
-| State Management | GetX                                |
-| Local Database   | SQLite                              |
-| Notifications    | Firebase Cloud Messaging            |
-| Native Features  | Kotlin for Android integration      |
-| Drawing          | Custom Canvas                       |
-| Code Quality     | Clean Code Principles               |
-| Alarm System     | package:alarm 4.1.1                 |
+| Component        | Technology                    |
+|------------------|-------------------------------|
+| Framework        | Flutter 3.x                   |
+| Architecture     | MVC + Clean Architecture      |
+| State Management | GetX                          |
+| Local Database   | SQLite                        |
+| Notifications    | Firebase Cloud Messaging      |
+| Native Features  | Kotlin for Android            |
+| Drawing          | Custom Canvas                 |
+| Code Quality     | Clean Code Principles         |
+| Alarm System     | `package:alarm` 4.1.1         |
 
 ---
 
@@ -97,7 +92,7 @@
 
 ### 🔧 Technical Overview
 
-TaskNotate's alarm system leverages `package:alarm 4.1.1` combined with native Android integration for reliable alarm functionality.
+TaskNotate’s alarm system leverages `package:alarm 4.1.1` combined with native Android integration for reliable alarm functionality.
 
 ```mermaid
 graph TD
@@ -106,7 +101,7 @@ graph TD
     C --> D[Flutter AlarmService]
     D --> E[AlarmDisplayState]
     E --> F[AlarmScreen UI]
-🎯 Key Requirements
+✅ Key Requirements
 Wake device screen when alarm triggers
 
 Display over lock screen
@@ -117,8 +112,6 @@ Survive device reboots
 
 🔄 Workflow Breakdown
 1️⃣ Native Layer (Kotlin)
-MainActivity.kt handles device wake-up:
-
 kotlin
 Copy
 Edit
@@ -138,37 +131,26 @@ override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
 }
 2️⃣ Flutter-Dart Layer
-AlarmService.dart manages alarm lifecycle:
-
 dart
 Copy
 Edit
 void _handleAlarmTrigger(AlarmSettings settings) async {
-    await AlarmDisplayStateService.to.setAlarmScreenActive(true);
-    Get.offAllNamed(AppRoute.alarmScreen, arguments: {
-        'id': settings.id, 
-        'title': 'Task Reminder'
-    });
+  await AlarmDisplayStateService.to.setAlarmScreenActive(true);
+  Get.offAllNamed(AppRoute.alarmScreen, arguments: {
+    'id': settings.id,
+    'title': 'Task Reminder'
+  });
 }
 🛑 Stopping Alarms
-
 dart
 Copy
 Edit
 await Alarm.stop(alarmId);
 await AlarmDisplayStateService.to.setAlarmScreenActive(false);
 🔒 State Persistence
-
 Uses SharedPreferences to store alarm state
 
 Ensures consistency across app restarts
-
-🌟 Key Features
-Hybrid Flutter-native architecture
-
-Reliable lock screen display
-
-Battery-optimized scheduling
 
 </details>
 🚀 Get Started in 3 Steps
@@ -183,4 +165,4 @@ cd TaskNotate
 
 # 3️⃣ Run the app
 flutter pub get && flutter run
-<div align="center"> <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen.svg?style=for-the-badge" alt="PRs Welcome"> <img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge" alt="MIT License"> </div> ```
+<div align="center"> <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen.svg?style=for-the-badge"> <img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge"> </div> ```
