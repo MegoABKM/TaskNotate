@@ -1,104 +1,170 @@
-TaskNotate 📋✨
+# TaskNotate 📋✨
 
-  
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c1ea1b69-76ea-4e86-9a35-c5393a96cd78" alt="TaskNotate Logo" width="150">
+</p>
 
+<p align="center">
+  <em>Your ultimate productivity companion with beautiful theme customization</em>
+</p>
 
+<div align="center">
 
-  Your ultimate productivity companion with beautiful theme customization
+[![Flutter](https://img.shields.io/badge/Flutter-3.x-blue?style=for-the-badge&logo=flutter)](https://flutter.dev)
+[![Dart](https://img.shields.io/badge/Dart-2.x-0175C2?style=for-the-badge&logo=dart)](https://dart.dev)
+[![GetX](https://img.shields.io/badge/GetX-State%20Management-orange?style=for-the-badge)](https://pub.dev/packages/get)
+[![SQLite](https://img.shields.io/badge/SQLite-3.x-003B57?style=for-the-badge&logo=sqlite&logoColor=white)](https://www.sqlite.org/index.html)
+[![MVC](https://img.shields.io/badge/Architecture-MVC-brightgreen?style=for-the-badge)](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)
+[![Kotlin](https://img.shields.io/badge/Kotlin-Android%20Native-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)](https://kotlinlang.org)
+[![Notifications](https://img.shields.io/badge/Notifications-Firebase%20Cloud%20Messaging-FFCA28?style=for-the-badge&logo=firebase)](https://firebase.google.com/docs/cloud-messaging)
+[![Clean Architecture](https://img.shields.io/badge/Clean%20Architecture-Layers-6DB33F?style=for-the-badge)](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
+[![Clean Code](https://img.shields.io/badge/Clean%20Code-Principles-5C9EAD?style=for-the-badge)](https://gist.github.com/wojteklu/73c6914cc446146b8b533c0988cf8d29)
 
+</div>
 
+## 🎨 Theme Showcase
 
+### Default Theme
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/2c93d080-c4d7-4c56-9634-e00ca499894f" alt="Default Home" width="200">
+  <img src="https://github.com/user-attachments/assets/bf83d76b-938c-4f65-9143-7d7159069337" alt="Default Category" width="200">
+  <img src="https://github.com/user-attachments/assets/aa6804c6-f52f-4f94-9671-1ec1395f2195" alt="Default Notes" width="200">
+  <img src="https://github.com/user-attachments/assets/424a0979-e330-4cae-b7ea-f02fdc9459c3" alt="Screenshot 1" width="200">
+</p>
 
+### Additional Screenshots
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/fcf52824-5c8a-44a8-aa89-e18965c942b8" alt="Screenshot 2" width="200">
+  <img src="https://github.com/user-attachments/assets/308f7161-9d8f-44d8-9043-f1041d4a7b4c" alt="Screenshot 3" width="200">
+  <img src="https://github.com/user-attachments/assets/d9b499b4-6892-42c4-beb1-4744cd569459" alt="Screenshot 4" width="200">
+  <img src="https://github.com/user-attachments/assets/12cd8a00-601a-4d55-a7a8-0fe83dd9e052" alt="Screenshot 5" width="200">
+  <img src="https://github.com/user-attachments/assets/63be5816-b264-44ff-83ac-93909f3e8612" alt="Screenshot 6" width="200">
+  <img src="https://github.com/user-attachments/assets/9d8381e8-c85c-4cd2-b1d7-e1c9f636f5a1" alt="Screenshot 7" width="200">
+  <img src="https://github.com/user-attachments/assets/8ffe1e63-6ad0-4d41-bb0c-2bdbd34a483c" alt="Default Settings" width="200">
+  <img src="https://github.com/user-attachments/assets/cebc6f2b-7c7d-4b7c-a221-6efa81d24d90" alt="Screenshot 8" width="200">
+</p>
 
+---
 
+## ✨ Core Features
 
-🎨 Theme Showcase
-Default Theme
+### 🎯 General Features
+- **🌈 20+ Color Themes**: Switch between beautiful presets with one tap
+- **☀️ Dark/Light Mode**: Automatic system adaptation or manual selection
+- **⚡ Simple & fast** task management with built-in notes ✏️
+- **🌍 Multi-Language**: English, العربية, Español, Deutsch, 中文
 
-  
-  
-  
-  
+### ✅ Advanced Task Management
+- 🔔 **Reminders & Deadlines**: Set start/finish dates and get notifications
+- 🧩 **Nested Subtasks**: Break tasks into smaller steps
+- 🔄 **Smart Sorting**: Organize by date, priority, creation time, or status
+- 📅 **Timeline View**: See your tasks in chronological order
 
+### 📝 Elegant Note-Taking
+- 🎨 **Canvas Drawing**: Sketch ideas with easy undo/redo
+- 💾 **Auto-saving**: Never lose your work
+- ✨ **Minimal Interface**: Focus on your content without distractions
 
-Additional Screenshots
+---
 
-  
-  
-  
-  
-  
-  
-  
-  
+## 🛠️ Technology Stack
 
+| Component        | Technology                          |
+|------------------|-------------------------------------|
+| Framework        | Flutter 3.x                         |
+| Architecture     | MVC with Clean Architecture         |
+| State Management | GetX                                |
+| Local Database   | SQLite                              |
+| Notifications    | Firebase Cloud Messaging            |
+| Native Features  | Kotlin for Android integration      |
+| Drawing          | Custom Canvas                       |
+| Code Quality     | Clean Code Principles               |
+| Alarm System     | package:alarm 4.1.1                 |
 
+---
 
-✨ Core Features
-🎯 General Features
+## 🚨 Alarm System Implementation
 
-🌈 20+ Color Themes: Switch between beautiful presets with one tap
-☀️ Dark/Light Mode: Automatic system adaptation or manual selection
-⚡ Simple & fast task management with built-in notes ✏️
-🌍 Multi-Language: English, العربية, Español, Deutsch, 中文
+<details>
+<summary><b>Click to expand: Alarm System Architecture and Flow</b></summary>
 
-✅ Advanced Task Management
+### 🔧 Technical Overview
+TaskNotate's alarm system leverages `package:alarm 4.1.1` combined with native Android integration for reliable alarm functionality. The system ensures alarms trigger even when the app is terminated or the device is locked.
 
-🔔 Reminders & Deadlines: Set start/finish dates and get notifications
-🧩 Nested Subtasks: Break tasks into smaller steps
-🔄 Smart Sorting: Organize by date, priority, creation time, or status
-📅 Timeline View: See your tasks in chronological order
+```mermaid
+graph TD
+    A[package:alarm] --> B[Kotlin MainActivity]
+    B --> C[MethodChannel]
+    C --> D[Flutter AlarmService]
+    D --> E[AlarmDisplayState]
+    E --> F[AlarmScreen UI]
+🎯 Key Requirements
+Wake device screen when alarm triggers
 
-📝 Elegant Note-Taking
+Display over lock screen
 
-🎨 Canvas Drawing: Sketch ideas with easy undo/redo
-💾 Auto-saving: Never lose your work
-✨ Minimal Interface: Focus on your content without distractions
+Work in all app states (foreground/background/terminated)
 
+Survive device reboots
 
-🛠️ Technology Stack
+🔄 Workflow Breakdown
+1️⃣ Native Layer (Kotlin)
+kotlin
+// MainActivity.kt handles device wake-up
+override fun onCreate(savedInstanceState: Bundle?) {
+    if (intent?.action == "com.megoabkm.tasknotate.ALARM_TRIGGER") {
+        // Turn screen on and show over lock screen
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O_MR1) {
+            setShowWhenLocked(true)
+            setTurnScreenOn(true)
+        } else {
+            window.addFlags(
+                WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON or
+                WindowManager.LayoutParams.FLAG_TURN_SCREEN_ON or
+                WindowManager.LayoutParams.FLAG_SHOW_WHEN_LOCKED
+            )
+        }
+    }
+    super.onCreate(savedInstanceState)
+}
+2️⃣ Flutter-Dart Layer
+dart
+// AlarmService.dart manages alarm lifecycle
+void _handleAlarmTrigger(AlarmSettings settings) async {
+    await AlarmDisplayStateService.to.setAlarmScreenActive(true);
+    Get.offAllNamed(AppRoute.alarmScreen, arguments: {
+        'id': settings.id, 
+        'title': 'Task Reminder'
+    });
+}
+🛑 Stopping Alarms
+dart
+// When user dismisses alarm:
+await Alarm.stop(alarmId);
+await AlarmDisplayStateService.to.setAlarmScreenActive(false);
+🔒 State Persistence
+Uses SharedPreferences to store:
 
+Active alarm state
 
+Current alarm ID
 
-Component
-Technology
+Alarm title
 
+Ensures state consistency across app restarts
 
+🌟 Key Features
+Hybrid Architecture: Combines Flutter flexibility with native reliability
 
-Framework
-Flutter 3.x
+Lock Screen Support: Displays over device lock screen
 
+Battery Optimization: Uses system-level scheduling
 
-Architecture
-MVC with Clean Architecture
+Consistent Behavior: Works across all app states
 
-
-State Management
-GetX
-
-
-Local Database
-SQLite
-
-
-Notifications
-Firebase Cloud Messaging
-
-
-Native Features
-Kotlin for Android integration
-
-
-Drawing
-Custom Canvas
-
-
-Code Quality
-Clean Code Principles
-
-
-
+</details>
 🚀 Get Started in 3 Steps
+bash
 # 1️⃣ Clone the repository
 git clone https://github.com/MegoABKM/TaskNotate.git
 
@@ -107,222 +173,4 @@ cd TaskNotate
 
 # 3️⃣ Run the app
 flutter pub get && flutter run
-
-
-  
-  
-
-
-
-🚨 How the Alarm System Works
-
-Click to expand: Alarm System Architecture and Flow
-
-TaskNotate's alarm system is designed for reliability, ensuring alarms trigger even when the device is locked or the app is not running. It leverages a hybrid approach, combining native Android (Kotlin) for system-level control and Flutter (Dart) for state management and UI. The system uses the alarm package (package:alarm) to schedule and trigger alarms, ensuring a seamless user experience.
-🎯 The Goal
-The alarm system must:
-
-Wake the device’s screen if it’s off.
-Display the alarm UI over the lock screen.
-Work reliably whether the app is in the foreground, background, or terminated.
-
-🛠️ Hybrid Architecture
-The system is split into two components communicating via a MethodChannel:
-
-Native Android (Kotlin): MainActivity.kt handles Android system interactions, such as waking the device and managing lock screen flags.
-Flutter (Dart): Services (AppBootstrapService, AlarmService, AlarmDisplayStateService) manage app state, navigation, and UI rendering.
-
-
-  
-
-
-🔄 The Flow: From Trigger to Display
-Scenario 1: App is Terminated or in Background (Cold Start)
-This is the critical path where the app launches from scratch due to an alarm.
-
-Alarm Trigger:
-
-The alarm package schedules alarms and fires a PendingIntent with the action com.megoabkm.tasknotate.ALARM_TRIGGER, targeting MainActivity.kt.
-This intent includes alarmId and title as extras.
-
-
-Native Wake-Up (MainActivity.kt):
-
-In onCreate or onNewIntent, the ALARM_TRIGGER action is detected, and applyLockScreenFlags() is called to:
-Turn on the screen (setTurnScreenOn(true)).
-Show the activity over the lock screen (setShowWhenLocked(true)).
-Keep the screen on temporarily (FLAG_KEEP_SCREEN_ON for older Android versions).
-
-
-
-override fun onCreate(savedInstanceState: Bundle?) {
-    if (intent?.action == "com.megoabkm.tasknotate.ALARM_TRIGGER") {
-        Log.d("MainActivity", "ALARM_TRIGGER intent found. Applying lock screen flags.")
-        applyLockScreenFlags()
-    } else {
-        clearLockScreenFlags()
-    }
-    super.onCreate(savedInstanceState)
-    handleIntent(intent)
-}
-
-private fun applyLockScreenFlags() {
-    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O_MR1) {
-        setShowWhenLocked(true)
-        setTurnScreenOn(true)
-    } else {
-        window.addFlags(
-            WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON or
-            WindowManager.LayoutParams.FLAG_TURN_SCREEN_ON or
-            WindowManager.LayoutParams.FLAG_SHOW_WHEN_LOCKED
-        )
-    }
-}
-
-
-Data Transfer to Flutter:
-
-The handleIntent method extracts alarmId and title from the intent and stores them in initialIntentData.
-A MethodChannel (com.megoabkm.tasknotate/alarm) exposes this data to Flutter via the getInitialIntent method.
-
-methodChannel?.setMethodCallHandler { call, result ->
-    when (call.method) {
-        "getInitialIntent" -> {
-            Log.d("MainActivity", "getInitialIntent called. Data: $initialIntentData Ascending
-
-
-
-Data: $initialIntentData")               result.success(initialIntentData)           }       }   }
-
-4. **Initial Routing (`AppBootstrapService.dart`)**:
-- On app startup, `AppBootstrapService.determineInitialRoute` checks for alarm data via `_getInitialAlarmDataFromNative`.
-- If alarm data is present, it persists the state in `SharedPreferences` (via `AlarmDisplayStateService`) and navigates to `AppRoute.alarmScreen`.
-```dart
-static Future<String> determineInitialRoute(SharedPreferences prefs) async {
-    final alarmData = await _getInitialAlarmDataFromNative();
-    if (alarmData != null) {
-        await prefs.setInt('current_alarm_id', alarmData['id']);
-        await prefs.setString('alarm_${alarmData['id']}_title', alarmData['title']);
-        await AlarmDisplayStateService.to.setAlarmScreenActive(true);
-        return AppRoute.alarmScreen;
-    }
-    // ... other routing logic
-}
-
-Scenario 2: App is Running (Hot Start)
-When the app is already open, the flow is handled within Flutter.
-
-Alarm Stream (AlarmService.dart):
-
-AlarmService listens to Alarm.ringStream from the alarm package.
-When an alarm triggers, _handleAlarmTrigger retrieves the alarmId and title from SharedPreferences.
-
-_alarmSubscription = Alarm.ringStream.stream.listen(_handleAlarmTrigger);
-
-void _handleAlarmTrigger(AlarmSettings alarmSettings) async {
-    final prefs = await SharedPreferences.getInstance();
-    final taskTitle = prefs.getString('alarm_${alarmSettings.id}_title');
-    if (taskTitle != vars) {
-        await AlarmDisplayStateService.to.setAlarmScreenActive(true);
-        await prefs.setInt('current_alarm_id', alarmSettings.id);
-        if (Get.currentRoute != AppRoute.alarmScreen) {
-            await Get.offAllNamed(AppRoute.alarmScreen,
-                arguments: {'id': alarmSettings.id, 'title': taskTitle});
-        }
-    }
-}
-
-
-State Management:
-
-AlarmDisplayStateService updates the isAlarmScreenActive flag in both memory (via RxBool) and SharedPreferences for persistence.
-
-class AlarmDisplayStateService extends GetxService {
-    final RxBool isAlarmScreenActive = false.obs;
-    Future<void> setAlarmScreenActive(bool isActive) async {
-        isAlarmScreenActive.value = isActive;
-        final prefs = await SharedPreferences.getInstance();
-        await prefs.setBool(prefsKeyIsAlarmScreenActive, isActive);
-    }
-}
-
-
-Navigation:
-
-If not already on AppRoute.alarmScreen, Get.offAllNamed navigates to the alarm screen, passing alarmId and title as arguments.
-
-
-
-Stopping the Alarm
-
-User Interaction:
-
-The user taps "Stop" on the AlarmScreen, triggering a call to Alarm.stop() from the ` increasinglypackage.
-
-
-State Update:
-
-AlarmDisplayStateService.to.setAlarmScreenActive(false) clears the active alarm flag.
-SharedPreferences is updated to remove alarm-related data (current_alarm_id, is_alarm_triggered).
-
-
-Native Flag Clearing:
-
-The Flutter UI invokes the stopAlarm method via the MethodChannel.
-MainActivity.kt clears lock screen flags to restore normal screen behavior.
-
-methodChannel?.setMethodCallHandler { call, result ->
-    when (call.method) {
-        "stopAlarm" -> {
-            Log.d("MainActivity", "stopAlarm called by Flutter.")
-            clearLockScreenFlags()
-            result.success(null)
-        }
-    }
-}
-
-private fun clearLockScreenFlags() {
-    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O_MR1) {
-        setShowWhenLocked(false)
-        setTurnScreenOn(false)
-    } else {
-        window.clearFlags(
-            WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON or
-            WindowManager.LayoutParams.FLAG_TURN_SCREEN_ON or
-            WindowManager.LayoutParams.FLAG_SHOW_WHEN_LOCKED
-        )
-    }
-}
-
-
-
-🔒 State Persistence
-
-AlarmDisplayStateService uses SharedPreferences to persist the alarm state (isAlarmScreenActive, current_alarm_id, alarm_<id>_title).
-This ensures the alarm screen can be restored on app restart, preventing missed alarms due to process termination.
-
-🛡️ Middleware Protection (Mymiddleware.dart)
-
-The Mymiddleware class checks the app’s state (AppSecurityService.isEnabledKey) before allowing navigation.
-If the app is disabled, it redirects to AppRoute.disabled, except for AppRoute.alarmScreen and AppRoute.splashScreen, ensuring alarms remain accessible.
-
-class Mymiddleware extends GetMiddleware {
-    @override
-    RouteSettings? redirect(String? route) {
-        final prefs = Get.find<StorageService>().sharedPreferences;
-        final isAppEnabledCached = prefs.getBool(AppSecurityService.isEnabledKey) ?? true;
-        if (!isAppEnabledCached && route != AppRoute.disabled && route != AppRoute.splashScreen && route != AppRoute.alarmScreen) {
-            return const RouteSettings(name: AppRoute.disabled);
-        }
-        return null;
-    }
-}
-
-🌟 Key Features
-
-Reliability: Alarms trigger even if the app is killed, thanks to the alarm package’s integration with native Android scheduling.
-Lock Screen Support: The alarm UI appears over the lock screen without requiring user unlock.
-State Consistency: SharedPreferences ensures alarm state persists across app restarts.
-Seamless Navigation: GetX routing ensures the alarm screen is displayed promptly and consistently.
-
-This hybrid, multi-layered approach ensures TaskNotate’s alarms are robust, user-friendly, and reliable, delivering a seamless experience for task reminders.
+<div align="center"> <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen.svg?style=for-the-badge" alt="PRs Welcome"> <img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge" alt="MIT License"> </div> ```
