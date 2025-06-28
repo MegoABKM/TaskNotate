@@ -1,4 +1,4 @@
-# TaskNotate 📋✨
+# TaskNotate
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/c1ea1b69-76ea-4e86-9a35-c5393a96cd78" alt="TaskNotate Logo" width="150">
@@ -24,7 +24,7 @@
 
 ---
 
-## 🎨 Theme Showcase
+## Theme Showcase
 
 ### Default Theme
 <p align="center">
@@ -48,28 +48,28 @@
 
 ---
 
-## ✨ Core Features
+## Core Features
 
-### 🎯 General Features
-- 🌈 **20+ Color Themes** with one-tap switching
-- ☀️ **Dark/Light Mode** based on system or manual toggle
-- ⚡ **Simple & Fast Task Management**
-- 🌍 **Multi-language**: English, العربية, Español, Deutsch, 中文
+### General Features
+- 20+ Color Themes with one-tap switching
+- Dark/Light Mode based on system or manual toggle
+- Simple & Fast Task Management
+- Multi-language: English, العربية, Español, Deutsch, 中文
 
-### ✅ Advanced Task Management
-- 🔔 **Reminders & Deadlines** with notifications
-- 🧩 **Nested Subtasks**
-- 🔄 **Smart Sorting** (date, priority, etc.)
-- 📅 **Timeline View**
+### Advanced Task Management
+- Reminders & Deadlines with notifications
+- Nested Subtasks
+- Smart Sorting (date, priority, etc.)
+- Timeline View
 
-### 📝 Elegant Note-Taking
-- 🎨 **Canvas Drawing**
-- 💾 **Auto-saving**
-- ✨ **Minimal Interface**
+### Elegant Note-Taking
+- Canvas Drawing
+- Auto-saving
+- Minimal Interface
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 | Component        | Technology                    |
 |------------------|-------------------------------|
@@ -85,12 +85,9 @@
 
 ---
 
-## 🚨 Alarm System Implementation
+## Alarm System Implementation
 
-<details>
-<summary><b>Click to expand: Alarm System Architecture and Flow</b></summary>
-
-### 🔧 Technical Overview
+### Technical Overview
 
 TaskNotate’s alarm system leverages `package:alarm 4.1.1` combined with native Android integration for reliable alarm functionality.
 
@@ -101,20 +98,19 @@ graph TD
     C --> D[Flutter AlarmService]
     D --> E[AlarmDisplayState]
     E --> F[AlarmScreen UI]
-✅ Key Requirements
-Wake device screen when alarm triggers
+```
 
-Display over lock screen
+### Key Requirements
+- Wake device screen when alarm triggers  
+- Display over lock screen  
+- Work in all app states (foreground/background/terminated)  
+- Survive device reboots  
 
-Work in all app states (foreground/background/terminated)
+### Workflow Breakdown
 
-Survive device reboots
+#### Native Layer (Kotlin)
 
-🔄 Workflow Breakdown
-1️⃣ Native Layer (Kotlin)
-kotlin
-Copy
-Edit
+```kotlin
 override fun onCreate(savedInstanceState: Bundle?) {
     if (intent?.action == "com.megoabkm.tasknotate.ALARM_TRIGGER") {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O_MR1) {
@@ -130,10 +126,11 @@ override fun onCreate(savedInstanceState: Bundle?) {
     }
     super.onCreate(savedInstanceState)
 }
-2️⃣ Flutter-Dart Layer
-dart
-Copy
-Edit
+```
+
+#### Flutter-Dart Layer
+
+```dart
 void _handleAlarmTrigger(AlarmSettings settings) async {
   await AlarmDisplayStateService.to.setAlarmScreenActive(true);
   Get.offAllNamed(AppRoute.alarmScreen, arguments: {
@@ -141,28 +138,35 @@ void _handleAlarmTrigger(AlarmSettings settings) async {
     'title': 'Task Reminder'
   });
 }
-🛑 Stopping Alarms
-dart
-Copy
-Edit
+```
+
+#### Stopping Alarms
+
+```dart
 await Alarm.stop(alarmId);
 await AlarmDisplayStateService.to.setAlarmScreenActive(false);
-🔒 State Persistence
-Uses SharedPreferences to store alarm state
+```
 
-Ensures consistency across app restarts
+#### State Persistence
+- Uses SharedPreferences to store alarm state
+- Ensures consistency across app restarts
 
-</details>
-🚀 Get Started in 3 Steps
-bash
-Copy
-Edit
-# 1️⃣ Clone the repository
+---
+
+## Get Started in 3 Steps
+
+```bash
+# 1. Clone the repository
 git clone https://github.com/MegoABKM/TaskNotate.git
 
-# 2️⃣ Navigate to project
+# 2. Navigate to project
 cd TaskNotate
 
-# 3️⃣ Run the app
+# 3. Run the app
 flutter pub get && flutter run
-<div align="center"> <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen.svg?style=for-the-badge"> <img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge"> </div> ```
+```
+
+<div align="center">
+  <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen.svg?style=for-the-badge">
+  <img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge">
+</div>
