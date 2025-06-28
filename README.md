@@ -22,9 +22,12 @@
 
 </div>
 
+---
+
 ## 🎨 Theme Showcase
 
 ### Default Theme
+
 <p align="center">
   <img src="https://github.com/user-attachments/assets/2c93d080-c4d7-4c56-9634-e00ca499894f" alt="Default Home" width="200">
   <img src="https://github.com/user-attachments/assets/bf83d76b-938c-4f65-9143-7d7159069337" alt="Default Category" width="200">
@@ -33,6 +36,7 @@
 </p>
 
 ### Additional Screenshots
+
 <p align="center">
   <img src="https://github.com/user-attachments/assets/fcf52824-5c8a-44a8-aa89-e18965c942b8" alt="Screenshot 2" width="200">
   <img src="https://github.com/user-attachments/assets/308f7161-9d8f-44d8-9043-f1041d4a7b4c" alt="Screenshot 3" width="200">
@@ -49,21 +53,24 @@
 ## ✨ Core Features
 
 ### 🎯 General Features
-- **🌈 20+ Color Themes**: Switch between beautiful presets with one tap
-- **☀️ Dark/Light Mode**: Automatic system adaptation or manual selection
-- **⚡ Simple & fast** task management with built-in notes ✏️
-- **🌍 Multi-Language**: English, العربية, Español, Deutsch, 中文
+
+- 🌈 20+ Color Themes — switch between beautiful presets with one tap  
+- ☀️ Dark/Light Mode — automatic system adaptation or manual selection  
+- ⚡ Simple & fast task management with built-in notes ✏️  
+- 🌍 Multi-Language: English, العربية, Español, Deutsch, 中文  
 
 ### ✅ Advanced Task Management
-- 🔔 **Reminders & Deadlines**: Set start/finish dates and get notifications
-- 🧩 **Nested Subtasks**: Break tasks into smaller steps
-- 🔄 **Smart Sorting**: Organize by date, priority, creation time, or status
-- 📅 **Timeline View**: See your tasks in chronological order
+
+- 🔔 Reminders & Deadlines — set start/finish dates and get notifications  
+- 🧩 Nested Subtasks — break tasks into smaller steps  
+- 🔄 Smart Sorting — organize by date, priority, creation time, or status  
+- 📅 Timeline View — see your tasks in chronological order  
 
 ### 📝 Elegant Note-Taking
-- 🎨 **Canvas Drawing**: Sketch ideas with easy undo/redo
-- 💾 **Auto-saving**: Never lose your work
-- ✨ **Minimal Interface**: Focus on your content without distractions
+
+- 🎨 Canvas Drawing — sketch ideas with easy undo/redo  
+- 💾 Auto-saving — never lose your work  
+- ✨ Minimal Interface — focus on your content without distractions  
 
 ---
 
@@ -89,6 +96,7 @@
 <summary><b>Click to expand: Alarm System Architecture and Flow</b></summary>
 
 ### 🔧 Technical Overview
+
 TaskNotate's alarm system leverages `package:alarm 4.1.1` combined with native Android integration for reliable alarm functionality.
 
 ```mermaid
@@ -106,9 +114,14 @@ Display over lock screen
 Work in all app states (foreground/background/terminated)
 
 Survive device reboots
+
 🔄 Workflow Breakdown
 1️⃣ Native Layer (Kotlin)
-// MainActivity.kt handles device wake-up
+MainActivity.kt handles device wake-up:
+
+kotlin
+Copy
+Edit
 override fun onCreate(savedInstanceState: Bundle?) {
     if (intent?.action == "com.megoabkm.tasknotate.ALARM_TRIGGER") {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O_MR1) {
@@ -125,7 +138,11 @@ override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
 }
 2️⃣ Flutter-Dart Layer
-// AlarmService.dart manages alarm lifecycle
+AlarmService.dart manages alarm lifecycle:
+
+dart
+Copy
+Edit
 void _handleAlarmTrigger(AlarmSettings settings) async {
     await AlarmDisplayStateService.to.setAlarmScreenActive(true);
     Get.offAllNamed(AppRoute.alarmScreen, arguments: {
@@ -134,9 +151,14 @@ void _handleAlarmTrigger(AlarmSettings settings) async {
     });
 }
 🛑 Stopping Alarms
+
+dart
+Copy
+Edit
 await Alarm.stop(alarmId);
 await AlarmDisplayStateService.to.setAlarmScreenActive(false);
 🔒 State Persistence
+
 Uses SharedPreferences to store alarm state
 
 Ensures consistency across app restarts
@@ -150,6 +172,9 @@ Battery-optimized scheduling
 
 </details>
 🚀 Get Started in 3 Steps
+bash
+Copy
+Edit
 # 1️⃣ Clone the repository
 git clone https://github.com/MegoABKM/TaskNotate.git
 
