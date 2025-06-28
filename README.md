@@ -1,32 +1,28 @@
-# TaskNotate
+# 🚀 TaskNotate
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/c1ea1b69-76ea-4e86-9a35-c5393a96cd78" alt="TaskNotate Logo" width="150">
 </p>
 
-<p align="center">
-  <em>Your ultimate productivity companion with beautiful theme customization</em>
-</p>
+<p align="center"><em>Your ultimate productivity companion with beautiful theme customization and powerful task reminders ⏰📝</em></p>
 
 <div align="center">
 
-[![Flutter](https://img.shields.io/badge/Flutter-3.x-blue?style=for-the-badge&logo=flutter)](https://flutter.dev)
-[![Dart](https://img.shields.io/badge/Dart-2.x-0175C2?style=for-the-badge&logo=dart)](https://dart.dev)
-[![GetX](https://img.shields.io/badge/GetX-State%20Management-orange?style=for-the-badge)](https://pub.dev/packages/get)
-[![SQLite](https://img.shields.io/badge/SQLite-3.x-003B57?style=for-the-badge&logo=sqlite&logoColor=white)](https://www.sqlite.org/index.html)
-[![MVC](https://img.shields.io/badge/Architecture-MVC-brightgreen?style=for-the-badge)](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)
-[![Kotlin](https://img.shields.io/badge/Kotlin-Android%20Native-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)](https://kotlinlang.org)
-[![Notifications](https://img.shields.io/badge/Notifications-Firebase%20Cloud%20Messaging-FFCA28?style=for-the-badge&logo=firebase)](https://firebase.google.com/docs/cloud-messaging)
-[![Clean Architecture](https://img.shields.io/badge/Clean%20Architecture-Layers-6DB33F?style=for-the-badge)](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
-[![Clean Code](https://img.shields.io/badge/Clean%20Code-Principles-5C9EAD?style=for-the-badge)](https://gist.github.com/wojteklu/73c6914cc446146b8b533c0988cf8d29)
+![Flutter](https://img.shields.io/badge/Flutter-3.x-blue?style=for-the-badge&logo=flutter)
+![Dart](https://img.shields.io/badge/Dart-2.x-0175C2?style=for-the-badge&logo=dart)
+![GetX](https://img.shields.io/badge/GetX-State%20Management-orange?style=for-the-badge)
+![SQLite](https://img.shields.io/badge/SQLite-Embedded%20DB-003B57?style=for-the-badge&logo=sqlite)
+![Local Notifications](https://img.shields.io/badge/Local%20Notifications-Flutter%20Local%20Notifications-blueviolet?style=for-the-badge&logo=bell)
+![Clean Architecture](https://img.shields.io/badge/Architecture-Clean-green?style=for-the-badge)
+![Kotlin](https://img.shields.io/badge/Kotlin-Android%20Native-7F52FF?style=for-the-badge&logo=kotlin)
 
 </div>
 
 ---
 
-## Theme Showcase
+## 🎨 Theme Showcase
 
-### Default Theme
+### 🌈 Default Theme
 <p align="center">
   <img src="https://github.com/user-attachments/assets/2c93d080-c4d7-4c56-9634-e00ca499894f" width="200">
   <img src="https://github.com/user-attachments/assets/bf83d76b-938c-4f65-9143-7d7159069337" width="200">
@@ -34,7 +30,7 @@
   <img src="https://github.com/user-attachments/assets/424a0979-e330-4cae-b7ea-f02fdc9459c3" width="200">
 </p>
 
-### Additional Screenshots
+### 📱 Additional Screens
 <p align="center">
   <img src="https://github.com/user-attachments/assets/fcf52824-5c8a-44a8-aa89-e18965c942b8" width="200">
   <img src="https://github.com/user-attachments/assets/308f7161-9d8f-44d8-9043-f1041d4a7b4c" width="200">
@@ -48,67 +44,69 @@
 
 ---
 
-## Core Features
+## ✨ Features
 
-### General Features
-- 20+ Color Themes with one-tap switching
-- Dark/Light Mode based on system or manual toggle
-- Simple & Fast Task Management
-- Multi-language: English, العربية, Español, Deutsch, 中文
+### ✅ Task Management
+- 📝 Create, edit, and delete tasks with ease
+- 🗂 Sort by due date, priority, or title
+- 📆 Timeline View & Calendar Integration
 
-### Advanced Task Management
-- Reminders & Deadlines with notifications
-- Nested Subtasks
-- Smart Sorting (date, priority, etc.)
-- Timeline View
+### 🔔 Local Notifications
+- Uses `flutter_local_notifications`
+- ⏰ Schedule alarms that trigger at exact time
+- 🔒 Works in background & locked screen
+- 💤 Persistent alarm screen until dismissed
 
-### Elegant Note-Taking
-- Canvas Drawing
-- Auto-saving
-- Minimal Interface
+### 🎨 Themes & UI
+- 🎨 20+ Color Themes (switch anytime)
+- 🌙 System-based Light/Dark mode
+- 🌐 Supports English, العربية, Español, Deutsch, 中文
 
----
-
-## Technology Stack
-
-| Component        | Technology                    |
-|------------------|-------------------------------|
-| Framework        | Flutter 3.x                   |
-| Architecture     | MVC + Clean Architecture      |
-| State Management | GetX                          |
-| Local Database   | SQLite                        |
-| Notifications    | Firebase Cloud Messaging      |
-| Native Features  | Kotlin for Android            |
-| Drawing          | Custom Canvas                 |
-| Code Quality     | Clean Code Principles         |
-| Alarm System     | `package:alarm` 4.1.1         |
+### 🖌️ Notes & Drawing
+- ✍️ Handwritten notes via canvas
+- 📁 Auto-save notes locally
+- 🧼 Clean, minimal layout
 
 ---
 
-## Alarm System Implementation
+## 🧱 Tech Stack
 
-### Technical Overview
+| 🔧 Component        | 🚀 Technology                   |
+|---------------------|-------------------------------|
+| Framework           | Flutter 3.x                   |
+| Architecture        | Clean + MVC                   |
+| State Management    | GetX                          |
+| Local DB            | SQLite                        |
+| Alarm Scheduling    | `package:alarm` + LocalNotif  |
+| Platform Integration| Kotlin                        |
+| Drawing Engine      | Flutter CustomPaint           |
 
-TaskNotate’s alarm system leverages `package:alarm 4.1.1` combined with native Android integration for reliable alarm functionality.
+---
+
+## 🔔 Alarm System Overview
+
+TaskNotate integrates precise local alarms with custom native Android UI for a seamless reminder experience.
 
 ```mermaid
 graph TD
-    A[package:alarm] --> B[Kotlin MainActivity]
+    A[Alarm Plugin] --> B[Kotlin Handler]
     B --> C[MethodChannel]
     C --> D[Flutter AlarmService]
-    D --> E[AlarmDisplayState]
-    E --> F[AlarmScreen UI]
+    D --> E[Alarm State Controller]
+    E --> F[Alarm UI Screen]
 ```
 
-### Key Requirements
-- Wake device screen when alarm triggers  
-- Display over lock screen  
-- Work in all app states (foreground/background/terminated)  
-- Survive device reboots  
+### 📌 Features
+- 🔓 Wake device + show over lockscreen
+- 🔄 Reliable after reboots
+- 🔕 Manual and auto-dismiss
+- 📡 Built with `flutter_local_notifications`
 
-### Workflow Breakdown
+---
 
-#### Native Layer (Kotlin)
+## 🧩 Sample Code
+
+### 📱 Native Android (Kotlin)
 
 ```kotlin
 override fun onCreate(savedInstanceState: Bundle?) {
@@ -128,7 +126,7 @@ override fun onCreate(savedInstanceState: Bundle?) {
 }
 ```
 
-#### Flutter-Dart Layer
+### 🔁 Flutter Integration
 
 ```dart
 void _handleAlarmTrigger(AlarmSettings settings) async {
@@ -140,33 +138,36 @@ void _handleAlarmTrigger(AlarmSettings settings) async {
 }
 ```
 
-#### Stopping Alarms
-
 ```dart
 await Alarm.stop(alarmId);
 await AlarmDisplayStateService.to.setAlarmScreenActive(false);
 ```
 
-#### State Persistence
-- Uses SharedPreferences to store alarm state
-- Ensures consistency across app restarts
+---
+
+## 🧪 Try It Out
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/MegoABKM/TaskNotate.git
+
+# 2. Navigate into it
+cd TaskNotate
+
+# 3. Install dependencies & run
+flutter pub get
+flutter run
+```
 
 ---
 
-## Get Started in 3 Steps
-
-```bash
-# 1. Clone the repository
-git clone https://github.com/MegoABKM/TaskNotate.git
-
-# 2. Navigate to project
-cd TaskNotate
-
-# 3. Run the app
-flutter pub get && flutter run
-```
+## ❤️ Support & License
 
 <div align="center">
   <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen.svg?style=for-the-badge">
   <img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge">
 </div>
+
+> Built with love using Flutter 💙  
+> Contributions are welcome!
+
